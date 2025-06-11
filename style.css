@@ -3,6 +3,11 @@ body{
     margin: 0;
     font-family:Poppins;
 }
+/* .example{
+    background-image: url(assets/backg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 .nav{
     display: flex;
     min-height: 80px;
@@ -11,6 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px black;
 }
 .bars{
     display: flex;
@@ -24,14 +30,16 @@ body{
 
 
 
+
 /* start of header */
 .header{
     background-image: url(assets/background1.jpg);
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    margin: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
+    border-radius: 20px;
 }
 .booknow{
     text-decoration: none;
@@ -65,3 +73,89 @@ body{
     padding-bottom: 25px;
 }
 /* end of header */
+
+
+
+/* start of our mission */
+.mission{
+    width: 90%;
+    margin: auto;
+}
+.mission div{
+    text-align: center;
+}
+/* end of our mission */
+
+
+
+/* start of section */
+.image1 img{
+    width: 40px;
+    height: 40px;
+}
+.text2{
+    color: #cda354;
+}
+.text3{
+    color: #787d7b;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    
+}
+.why{
+  width: 90%;
+  margin: auto;
+
+}
+.innersection{
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+    border: 2px solid #787d7b;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* end of section */
+
+
+
+/* start tour section */
+.image2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.innersection1{
+    width: 320px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+/*end  tour section */
+
+.pos{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 80%;
+    left: 95%;
+}
+#whatsapp{
+    width: 50px;
+    height: 50px;
+}
+#phone{
+    width: 45px;
+    height: 45px;
+}
