@@ -10,12 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&family=Prata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style.css">
+   <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
 </head>
 <body>
     <!-- start of nav bar -->
      <div class="example">
     <div class="nav">
-        <div class="img1"><B>Dharshan Advisor</B></div>
+        <div class="img1"><img src="assets/dharshan.png" alt=""></div>
         <div class="bars">
             <div class="home"><a href="">Home</a></div>
             <div class="about"><a href="">About Us</a></div>
@@ -37,7 +38,7 @@
     </div>
     </div>
     <!-- end of head section -->
-
+<div class="m1">
     <!-- start of our mission -->
     <div class="mission">
         <h1>Our Mission</h1>
@@ -79,7 +80,7 @@
     <!-- end why choose us section -->
 
     <!-- start of tour section -->
-    <div class="why">
+    <div class="why" id="id1">
         <div class="sec1">
             <h1>Our Tours</h1>
         </div>
@@ -106,16 +107,103 @@
             </div>
         </div>
     </div>
-
+</div>
     <!-- end of tour section -->
+
+
+    <!-- start of temples -->
+     <div class="why">
+        <div class="sec1">
+            <h1>Temples Of India</h1>
+        </div>
+        <div class="sec2">
+            <div class="innersection1">
+                <div class="image2"><img src="assets/brihadeshwara1.jpeg" alt=""></div>
+                <div class="text2"><b>Brihadeeswarar Temple</b></div>
+                <div class="text3">Experience the divine aura of the Golden Temple in Amritsar, a spiritual haven for millions.</div>
+            </div>
+            <div class="innersection1">
+                <div class="image2"><img src="assets/kasi.jpg" alt=""></div>
+                <div class="text2"><b>Kashi Vishwanath Temple</b></div>
+                <div class="text3">Explore the architectural marvels and spiritual essence of South India’s most revered temples.</div>
+            </div>
+            <div class="innersection1">
+                <div class="image2"><img src="assets/jagannath.jpg" alt=""></div>
+                <div class="text2"><b>Jagannath Templer</b></div>
+                <div class="text3">Witness the spiritual essence of Varanasi, with its ancient temples and sacred rituals on the Ganges.</div>
+            </div>
+            <div class="innersection1">
+                <div class="image2"><img src="assets/himalayas.jpg" alt=""></div>
+                <div class="text2"><b>Himalayas Tour</b></div>
+                <div class="text3">Embark on a journey to the serene Himalayas, visiting sacred temples and meditating in the lap of nature.</div>
+            </div>
+        </div>
+    </div>
+    <!-- end of temples -->
     <div class="pos">
         <div class="img2"><a href="https://wa.me/+918122825987"><img src="assets/whatsapplogo.png" alt="" id="whatsapp"></a></div>
         <div class="img2"><a href="tel:+918122825987"><img src="assets/phone.png" alt="" id="phone"></a></div>
     </div>
-
-    <div>
-        
+    <div class="hello">
+        <h1> Reach out to us and we’ll be happy to assist you.</h1>
+        <div class="form">
+            <div class="div1">
+                <div class="review">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="845422d9-e0cd-4752-b626-3583ba8c359a">
+                        <label for="">Name</label>
+                        <input type="text" name="name" class="input" placeholder="Enter Your Name" required>
+                        <label for="">Phone Number</label>
+                        <input type="tel" name="phonenumber" class="input" placeholder="Enter Your Mobile Number" required>
+                        <label for="">Email ID</label>
+                        <input type="email" name="mailid" class="input" placeholder="Enter Your Mail ID">
+                        <label for="">Your Message</label>
+                        <textarea name=""  id="input" placeholder="Enter Your Message"></textarea>
+                        <button type="submit" id="btn">SUBMIT</button>
+                    </form>
+                </div>
+                <div id="calls">
+                    <div class="contact1"><a href="tel:+918122825987">Contact Us</a></div>
+                    <div class="contact1" ><a href="#id1">View Tours</a></div>
+                </div>
+            </div>
+            <div class="ani">
+                <dotlottie-player src="https://lottie.host/8e856da6-730f-45db-ad6f-7a2eca945ac5/sl5VFpfc74.lottie"
+                background="transparent" speed="1" 
+                style="width: 500px; height: 500px" 
+                loop autoplay></dotlottie-player>
+             </div>
+        </div>
     </div>
+    <footer class="footer">
+        <div class="footer" id="foot">
+        <div class="total" >
+            <div class="out">
+                <div><img src="assets/dharshan.png" alt="" width="300px" height="100px"></div>
+                <div class="social">
+                    <a href="https://www.facebook.com/"><img src="assets/Facebook.svg" alt=""></a>
+                    <a href="https://www.instagram.com/"><img src="assets/Instagram.svg" alt=""></a>
+                    <a href="https://x.com/"><img src="assets/Twitter.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/company/"><img src="assets/LinkedIn.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="in">
+                <h4>Subscribe</h4>
+                <div action="" class="type">
+                    <div class="input1"><input type="text" placeholder="Enter your mail"></div>
+                    <div class="subscribe"><span>subscribe</span></div>
+                </div>
+                <ins>By subscribing you agree to with our Privacy Policy</ins>
+            </div>
+        </div>
+        <hr>
+        <div class="end">
+            <a href="">Privacy policy</a>
+            <a href="">Terms of Service</a>
+            <a href="">Cookies Settings</a>
+        </div>
+    </div>
+    </footer>
 
     
 

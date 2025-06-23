@@ -72,6 +72,12 @@ body{
     font-size:25px;
     padding-bottom: 25px;
 }
+
+.img1 img{
+    width: 150px;
+    height: 50px;
+    padding-left: 50px;
+}
 /* end of header */
 
 
@@ -159,3 +165,149 @@ body{
     width: 45px;
     height: 45px;
 }
+
+/* .m1{
+    background-image: url(assets/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+
+/*start of contact us */
+
+.contact1{
+    padding: 10px;
+    background-color: #cda354;
+    border-radius: 20px;
+}
+.contact1 a{
+    color: white;
+    text-decoration: none;
+}
+.contact1:hover{
+    background-color: black;
+}
+#calls{
+    display: flex;
+    justify-content: space-evenly;
+}
+form{
+    padding: 20px;
+}
+label,input,textarea{
+    display: block;
+}
+.input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid #cda354;
+}
+#input{
+    border:2px solid #cda354;
+    border-radius: 10px;
+}
+#btn{
+    padding: 10px;
+    background-color: #cda354;
+    border-radius: 10px;
+    color: aliceblue;
+    border: none;
+    width: 100px;
+}
+#btn:active{
+    background-color: black;
+    color: white;
+}
+textarea{
+    height: 100px;
+}
+.hello{
+    width: 90%;
+    margin: auto;
+}
+/* end of contaact us */
+
+/* forms start */
+.form{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.div1{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+form{
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.review{
+   border: 2px solid #cda354;
+   border-radius: 20px;
+}
+/* end of forms */
+
+/* footer */
+.footer{
+    background-color:#787d7b;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* start of footer */
+.input1 input{
+    padding: 10px;
+    width: 200px;
+}
+.type{
+    display: flex;
+    justify-content: space-between
+    
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 130px;
+}
+.in h4,ins{
+    color: white;
+    font-size: 14px;
+}
+.subscribe{
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+}
+.out{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+hr{
+    opacity: 0.6;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;    
+
+}
+.end a{
+    padding: 15px;
+}
+
+/* end of footer */
